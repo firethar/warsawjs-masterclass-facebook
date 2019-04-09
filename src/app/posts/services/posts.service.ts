@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { PostsResponse } from '../interfaces/responses/posts-response.interface';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,7 @@ export class PostsService {
   ) { }
 
   getPosts() {
-    return this.http.get<PostsResponse>('/assets/posts.json');
+    return this.http.get<PostsResponse>(environment.postsUrl);
   }
 
 }
