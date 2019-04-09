@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "changelog": "git-changelog",
+    "changelog": "git-changelog -e",
     "predeploy": "ng build --base-href=/warsawjs-masterclass-facebook/",
     "deploy": "gh-pages -d dist/warsawjs-masterclass-facebook/"
   },
