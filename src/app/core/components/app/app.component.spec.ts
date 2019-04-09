@@ -37,6 +37,6 @@ describe('AppComponent', () => {
 
   it('should render title in a h1 tag', () => {
     fixture.detectChanges();
-    expect($component.querySelector('h1').textContent).toContain('Welcome to warsawjs-masterclass-facebook!');
+    expect($component.querySelector('h1').textContent).toContain('Facebook');
   });
 });

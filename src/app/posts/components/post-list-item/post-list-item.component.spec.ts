@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PostListItemComponent } from './post-list-item.component';
+import { Post } from '../../interfaces/post.interface';
 
 describe('PostListItemComponent', () => {
   let component: PostListItemComponent;
@@ -16,10 +17,14 @@ describe('PostListItemComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(PostListItemComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
   it('should create', () => {
+    component.post = {
+      author: {},
+      images: []
+    } as Post;
+    fixture.detectChanges();
     expect(component).toBeTruthy();
   });
 });
