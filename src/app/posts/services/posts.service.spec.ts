@@ -66,13 +66,13 @@ describe('PostsService', () => {
         }
       });
 
-      const httpMock = TestBed.get(HttpTestingController);
+    const httpMock = TestBed.get(HttpTestingController);
 
-      const testRequest = httpMock.expectOne(environment.postsUrl);
+    const testRequest = httpMock.expectOne(environment.postsUrl);
 
-      testRequest.flush({
-        posts: [fakePost(), fakePost(), fakePost(), fakePost(), fakePost()]
-      });
+    testRequest.flush({
+      posts: [fakePost(), fakePost(), fakePost(), fakePost(), fakePost()]
+    });
   });
 
 });
