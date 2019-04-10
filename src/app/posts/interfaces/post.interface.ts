@@ -1,13 +1,9 @@
+import { User } from '../../users/interfaces/user.interface';
+
 export interface Post {
   id:           string;
   created_time: string;
-  author:       Author;
+  author:       User;
   body:         string;
   images:       string[];
-}
-
-export interface Author {
-  id:         string;
-  name:       string;
-  avatar_url: string;
 }
