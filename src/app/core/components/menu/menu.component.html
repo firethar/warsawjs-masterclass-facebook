@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand navbar-light bg-dark">
+  <a class="navbar-brand text-white" routerLink="/">Facebook</a>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="">
+        <a class="nav-item nav-link text-white" routerLink="/" routerLinkActive="bg-danger" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      </li>
+      <li class="">
+        <a class="nav-item nav-link text-white" routerLink="/sign-up" routerLinkActive="bg-danger">Rejestracja</a>
+      </li>
+      <li class="">
+        <a class="nav-item nav-link text-white" routerLink="/sign-in" routerLinkActive="bg-danger">Logowanie</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Wyszukaj..." aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Szukaj</button>
+  </form> -->
+
+</nav>
