@@ -1,9 +1,9 @@
 {
     "app_name": "Warsawjs Masterclass Facebook",
-    "logo": "",
+    "logo": "https://github.com/rafinskipg/git-changelog/raw/master/images/git-changelog-logo.png",
     "intro": "",
     "branch" : "",
-    "repo_url": "/warsawjs-masterclass-facebook",
+    "repo_url": "https://github.com/firethar/warsawjs-masterclass-facebook",
     "version_name" : "v1.0.0",
     "file": "CHANGELOG.md",
     "template": "",
