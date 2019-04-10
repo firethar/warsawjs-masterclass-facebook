@@ -1,3 +1,13 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/firethar/warsawjs-masterclass-facebook/compare/v1.0.4...v1.0.5) (2019-04-10)
+
+
+### Features
+
+* **posts:** display post page ([106c085](https://github.com/firethar/warsawjs-masterclass-facebook/commit/106c085))
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/firethar/warsawjs-masterclass-facebook/compare/v1.0.3...v1.0.4) (2019-04-10)
 
