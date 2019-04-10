@@ -1,3 +1,16 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/firethar/warsawjs-masterclass-facebook/compare/v1.0.5...v2.0.0) (2019-04-10)
+
+
+### Features
+
+* **cache:** create http interceptor with cache service ([6e966f8](https://github.com/firethar/warsawjs-masterclass-facebook/commit/6e966f8))
+* **sign-in:** create sign-in form ([5fb11b3](https://github.com/firethar/warsawjs-masterclass-facebook/commit/5fb11b3))
+* **sign-up:** create sign-up form ([bd450d1](https://github.com/firethar/warsawjs-masterclass-facebook/commit/bd450d1))
+* **users:** display user profile ([a47716a](https://github.com/firethar/warsawjs-masterclass-facebook/commit/a47716a))
+
+
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/firethar/warsawjs-masterclass-facebook/compare/v1.0.4...v1.0.5) (2019-04-10)
 
