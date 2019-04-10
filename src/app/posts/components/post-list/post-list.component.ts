@@ -29,7 +29,6 @@ export class PostListComponent implements OnInit {
     .subscribe({
       next: (response) => {
         this.posts = response.posts;
-        // ..
       },
       error: (err) => {
         console.error(err);
