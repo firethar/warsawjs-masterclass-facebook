@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "changelog": "git-changelog -e",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "predeploy": "ng build --prod --base-href=/warsawjs-masterclass-facebook/",
     "deploy": "gh-pages -d dist/warsawjs-masterclass-facebook/"
   },
@@ -45,8 +45,8 @@
     "@types/node": "~8.9.4",
     "ajv": "^6.10.0",
     "codelyzer": "~4.5.0",
+    "conventional-changelog-cli": "^2.0.12",
     "gh-pages": "^2.0.1",
-    "git-changelog": "^1.1.2",
     "husky": "^1.3.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
