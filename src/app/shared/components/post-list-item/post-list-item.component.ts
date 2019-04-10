@@ -20,7 +20,7 @@ export class PostListItemComponent implements OnInit {
   }
 
   getPostLink() {
-    return `/posts/${this.post.author.id}`;
+    return `/posts/${this.post.id}`;
   }
 
 }
