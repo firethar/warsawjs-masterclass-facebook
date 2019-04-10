@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-sign-in-page',
@@ -7,9 +10,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignInPageComponent implements OnInit {
 
-  constructor() { }
+  user = {
+    email: null,
+    password: null,
+  }
+
+  errorMessage: string = null;
+
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
   }
 
+  async handleSubmit() {
+    try {
+      console.log(this.user);
+      this.router.navigate(['/']);
+    } catch (err) {
+      this.errorMessage = 'Niepoprawny email lub hasło';
+    }
+  }
 }
